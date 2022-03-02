@@ -51,7 +51,8 @@
     "loady": "git+https://github.com/chjj/loady.git#semver:~0.0.1",
     "n64": "git+https://github.com/chjj/n64.git#semver:~0.2.10",
     "nan": "git+https://github.com/braydonf/nan.git#semver:=2.14.0",
-    "tdc-yespower": "^1.0.0"
+    "tdc-yespower": "^1.0.0",
+    "tdc-falcon": "^1.0.0"
   },
   "bundleDependencies": [
     "bcfg",
