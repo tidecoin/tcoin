@@ -1,14 +1,9 @@
-# Bcoin
+# Tcoin
 
-[![Build Status][circleci-status-img]][circleci-status-url]
-[![Coverage Status][coverage-status-img]][coverage-status-url]
 
-**Bcoin** is an alternative implementation of the Bitcoin protocol, written in
+**Tcoin** is an alternative implementation of the Tidecoin protocol, written in
 JavaScript and C/C++ for Node.js.
 
-Bcoin is well tested and aware of all known consensus rules. It is currently
-used in production as the consensus backend and wallet system for
-[purse.io][purse].
 
 ## Uses
 
@@ -17,15 +12,14 @@ used in production as the consensus backend and wallet system for
 - Wallet Backend
 - Mining Backend (getblocktemplate support)
 - Layer 2 Backend (lightning)
-- General Purpose Bitcoin Library
+- General Purpose Tidecoin Library
 
-Try it in the browser: [https://bcoin.io/browser/](https://bcoin.io/browser/)
 
 ## Install
 
 ```
-$ git clone git://github.com/bcoin-org/bcoin.git
-$ cd bcoin
+$ git clone git://github.com/tidecoin/tcoin
+$ cd tcoin
 $ npm rebuild
 $ ./bin/bcoin
 ```
@@ -42,11 +36,11 @@ latest changes via the [Changelog][changelog].
 
 ## Support
 
-Join us on [freenode][freenode] in the [#bcoin][irc] channel.
+Join us on Telegram https://t.me/TidecoinTDC
 
 ## Disclaimer
 
-Bcoin does not guarantee you against theft or lost funds due to bugs, mishaps,
+Tcoin does not guarantee you against theft or lost funds due to bugs, mishaps,
 or your own incompetence. You and you alone are responsible for securing your
 money.
 
@@ -57,19 +51,11 @@ to be distributed under the MIT license. You are also implicitly verifying that
 all code is your original work. `</legalese>`
 
 ## License
-
+- Copyright (c) 2022, YarSawyer & Likloadm (MIT License).
 - Copyright (c) 2014-2015, Fedor Indutny (MIT License).
 - Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
 
 See LICENSE for more info.
 
-[purse]: https://purse.io
-[guide]: docs/getting-started.md
-[freenode]: https://freenode.net/
-[irc]: irc://irc.freenode.net/bcoin
 [changelog]: CHANGELOG.md
 
-[coverage-status-img]: https://codecov.io/gh/bcoin-org/bcoin/badge.svg?branch=master
-[coverage-status-url]: https://codecov.io/gh/bcoin-org/bcoin?branch=master
-[circleci-status-img]: https://circleci.com/gh/bcoin-org/bcoin/tree/master.svg?style=shield
-[circleci-status-url]: https://circleci.com/gh/bcoin-org/bcoin/tree/master
