@@ -51,7 +51,7 @@ to be distributed under the MIT license. You are also implicitly verifying that
 all code is your original work.
 
 ## License
-- Copyright (c) 2022, YarSawyer & Likloadm (MIT License).
+- Copyright (c) 2022, Yar Sawyer & Likloadm (MIT License).
 - Copyright (c) 2014-2015, Fedor Indutny (MIT License).
 - Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
 
