@@ -48,7 +48,7 @@ money.
 
 If you contribute code to this project, you are implicitly allowing your code
 to be distributed under the MIT license. You are also implicitly verifying that
-all code is your original work. `</legalese>`
+all code is your original work.
 
 ## License
 - Copyright (c) 2022, YarSawyer & Likloadm (MIT License).
